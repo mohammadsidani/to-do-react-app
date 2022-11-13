@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.App .date {
+  margin: 2rem 0 1rem 0;
+  display: flex;
+}
+.App .date p {
+  padding: 0 2px;
+}
+
+.App .form-input {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.App .form-input .icon {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  font-size: 25px;
+  color: #101820ff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App form input {
+  border: 2px solid #f2aa4cff;
+  padding: 5px 10px 5px 50px;
+  font-size: 18px;
+  line-height: 30px;
+  outline: 0;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.App .task-row {
+  border: 2px solid #f2aa4cff;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 8px 0;
+  width: 94%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App .task-row .icon {
+  font-size: 25px;
+  color: #101820ff;
+}
+
+.App .task-row p {
+  text-transform: capitalize;
+}
+
+.completed {
+  background-color: #eee;
+  text-decoration: line-through;
+}
+
+.App .length {
+  margin: 1rem 0;
+}
